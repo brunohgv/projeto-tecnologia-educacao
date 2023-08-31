@@ -1,20 +1,15 @@
-import { FlatList } from 'react-native'
 import React from 'react'
 import Item from '../components/Item';
 
 import { root } from '../db'
 import Container from '../components/Container';
-
-export default function Home() {
+import { Text, Image } from 'react-native';
+import image from '../assets/logo-removebg-preview.png'
+export default function AppListPage() {
   return (
     <Container>
-      <FlatList
-        style={{width: '100%'}}
-        data={root.apps}
-        renderItem={({item}) => <Item title={item.name} image={item.image} navigateTo="App" navigateProps={{ app: item.name }} />}
-        keyExtractor={item => item.name}
-      />
+      <Image source={image} height={80} width={90} />
+      <Item title="Aperte aqui para começar" navigateTo="AppList" >Aperte aqui para começar</Item>
     </Container>
   )
 }
-
