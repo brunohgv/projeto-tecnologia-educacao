@@ -29,11 +29,11 @@ export const root = {
           }
         },
         {
-          name: 'Cancelar Corrida',
+          name: 'Avaliar motorista',
           resource: {
             type: 'video',
-            title: 'Como Cancelar uma corrida na Uber',
-            url: 'https://www.youtube.com/watch?v=3dBGsMNSreY'
+            title: 'Como avaliar a sua viagem na Uber',
+            url: 'https://www.youtube.com/watch?v=nyGLkqh8yHg'
           }
         }
       ]

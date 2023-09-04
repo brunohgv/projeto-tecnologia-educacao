@@ -2,6 +2,7 @@ import { StyleSheet, Text } from 'react-native'
 import React, { useEffect } from 'react'
 import Container from '../components/Container'
 import { useRoute } from '@react-navigation/native'
+import { WebView } from 'react-native-webview'
 import YoutubePlayer from 'react-native-youtube-iframe'
 
 export default function TutorialPage({ navigation }) {
